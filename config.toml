@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#3c471eff"           
+backgroundColor = "#c8db98ff"        
+secondaryBackgroundColor = "#f8fce8"   # warna kotak username/password
+textColor = "#262f11ff"               
+font = "sans serif"
