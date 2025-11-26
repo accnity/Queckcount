@@ -52,7 +52,9 @@ if submit:
         st.session_state.logged_in = True
         st.session_state.username = username
         st.success("Login berhasil! Mengarahkan ke Dashboard...")
-        switch_page("Dashboard")
+        #switch_page("Dashboard")
+        st.markdown("[➡️ Ke Dashboard](Dashboard)")
+
     else:
         st.error("Username atau password salah.")
 

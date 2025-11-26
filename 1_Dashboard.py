@@ -18,24 +18,30 @@ st.write("")
 col1, col2 = st.columns(2)
 
 with col1:
-    if st.button("📘 Jurnal Umum"):
-        switch_page("Jurnal_umum")
+    st.markdown("[📘 Jurnal Umum](Jurnal_umum)")
+    st.markdown("[📗 Buku Besar](Buku_besar)")
+    st.markdown("[📙 Neraca Saldo](Neraca_saldo)")
+    #if st.button("📘 Jurnal Umum"):
+        #switch_page("Jurnal_umum")
 
-    if st.button("📗 Buku Besar"):
-        switch_page("Buku_besar")
+    #if st.button("📗 Buku Besar"):
+        #switch_page("Buku_besar")
 
-    if st.button("📙 Neraca Saldo"):
-        switch_page("Neraca_saldo")
+    #if st.button("📙 Neraca Saldo"):
+        #switch_page("Neraca_saldo")
 
 with col2:
-    if st.button("💵 Jurnal Penerimaan Kas"):
-        switch_page("Jurnal_Penerimaan_Kas")
+    st.markdown("[💵 Jurnal Penerimaan Kas](Jurnal_Penerimaan_Kas)")
+    st.markdown("[💳 Jurnal Pengeluaran Kas](Jurnal_Pengeluaran_Kas)")
+    st.markdown("[📈 Laporan Laba Rugi](Laporan_Laba_Rugi)")
+    #if st.button("💵 Jurnal Penerimaan Kas"):
+        #switch_page("Jurnal_Penerimaan_Kas")
 
-    if st.button("💳 Jurnal Pengeluaran Kas"):
-        switch_page("Jurnal_Pengeluaran_Kas")
+    #if st.button("💳 Jurnal Pengeluaran Kas"):
+        #switch_page("Jurnal_Pengeluaran_Kas")
 
-    if st.button("📈 Laporan Laba Rugi"):
-        switch_page("Laporan_Laba_Rugi")
+    #if st.button("📈 Laporan Laba Rugi"):
+        #switch_page("Laporan_Laba_Rugi")
 
 st.write("---")
 
