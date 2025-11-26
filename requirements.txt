@@ -4,3 +4,4 @@ pandas
 numpy
 openpyxl
 xlrd
+switch_page
