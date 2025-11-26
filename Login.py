@@ -64,7 +64,8 @@ if submit:
 if st.session_state.logged_in:
     st.success(f"Kamu sudah login sebagai **{st.session_state.username}**")
     if st.button("Ke Dashboard"):
-        switch_page("Dashboard")
+        st.markdown("[➡️ Ke Dashboard](Dashboard)")
+        #switch_page("Dashboard")
 
 
 
