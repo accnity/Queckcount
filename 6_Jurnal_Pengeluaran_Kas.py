@@ -61,11 +61,11 @@ for idx, row in df.iterrows():
         debit_val = kredit_val  # sebagai fallback
 
     data_jpk.append({
-        "tanggal": tanggal,
+        "Tanggal": tanggal,
         "Debit akun": debit_akun,
-        "debit": debit_val,
+        "Debit": debit_val,
         "Kredit akun": "Kas",
-        "kredit": kredit_val
+        "Kredit": kredit_val
     })
 
 df_jpk = pd.DataFrame(data_jpk)

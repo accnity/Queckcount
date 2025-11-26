@@ -25,9 +25,9 @@ if "logged_in" not in st.session_state or not st.session_state["logged_in"]:
   st.warning("⚠️ Silahkan login terlebih dahulu.")
   switch_page("login")
   st.stop()
-with st.sidebar:
-    if st.button ("⬅️ Kembali ke Dashboard"):
-         switch_page("dashboard")
+
+if st.button ("⬅️ Kembali ke Dashboard"):
+  switch_page("dashboard")
 
 st.title("📊 Neraca Saldo")
 

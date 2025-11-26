@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
-from streamlit_extras.switch_page_button import switch_page
+#from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(page_title="Laporan Laba Rugi", page_icon= "📈")
 
@@ -9,11 +9,13 @@ st.set_page_config(page_title="Laporan Laba Rugi", page_icon= "📈")
 
 if "logged_in" not in st.session_state or not st.session_state["logged_in"]:
     st.warning("⚠️ Silahkan login terlebih dahulu.")
-    switch_page("login")
+    st.markdown("[➡️ Ke Login](login)")
+    #switch_page("login")
     st.stop()
 
 if st.button("⬅️ Kembali ke Dashboard"):
-    switch_page("dashboard")
+    st.markdown("[⬅️ Kembali ke Dashboard](Dashboard)")
+    #switch_page("dashboard")
 
 st.title("📈 Laporan Laba Rugi")
 
