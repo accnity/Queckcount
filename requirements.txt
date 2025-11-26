@@ -1,7 +1,6 @@
-streamlit
-streamlit_extras
+streamlit==1.17.0
+streamlit_extras==0.1.0
 pandas
 numpy
 openpyxl
 xlrd
-switch_page
